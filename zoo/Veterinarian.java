@@ -29,7 +29,7 @@ public class Veterinarian extends Animal {
         animal[0] = new Cat("Fish", "home", "Frankinshtain", "British");
         animal[1] = new Dog("miet ", "flor", "Sharik", "pikines");
         animal[2] = new Horse("canabis", "hlev", "Oslic", 5.6);
-        for (Animal animal1 : animal) veterinarian.treatAnimal(animal1);
+        for (Animal animals : animal) veterinarian.treatAnimal(animals);
 
     }
 }
